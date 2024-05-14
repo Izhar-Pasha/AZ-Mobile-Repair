@@ -1,0 +1,158 @@
+@import "../../css-config/mixins.scss";
+
+
+.category {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  background: -webkit-linear-gradient(52deg, #ffffff 0%, #f9f8f3 100%);
+  background: linear-gradient(52deg, #ffffff 0%, #f9f8f3 100%);
+  position: relative;
+  background-image: url("../../Assets/Background\ .jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // filter: blur(10px);
+
+  .header {
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 20px;
+    margin: 25px;
+    padding: 5px;
+
+    h1 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #ffffff;
+      margin: 10px;
+      @include md {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+    }
+
+    .underline {
+      height: 5px;
+      background-color: rgb(17, 17, 77);
+      width: 80px;
+      border-radius: 20px;
+
+    }
+  }
+
+  .content {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 10px;
+
+
+    @include md {
+      height: fit-content;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+
+    }
+
+    .cat {
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @include md {
+        margin: 30px;
+      }
+
+      #head {
+        height: 170px;
+        width: 150px;
+
+        @include md {
+          height: 240px;
+          width: 210px;
+        }
+      }
+
+      #head:hover {
+        height: 180px;
+        width: 160px;
+
+        @include md {
+          height: 250px;
+          width: 220px;
+        }
+      }
+
+      .img {
+        height: 180px;
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        border-radius: 50%;
+        overflow: hidden;
+        cursor: pointer;
+
+        @include md {
+          height: 280px;
+          width: 280px;
+          overflow: hidden;
+
+        }
+
+        .image {
+          height: 180px;
+          width: 180px;
+
+          @include md {
+            height: 300px;
+            width: 300px;
+          }
+
+        }
+
+        .image:hover {
+          height: 220px;
+          width: 220px;
+          transition: ease-in-out;
+
+          @include md {
+            height: 315px;
+            width: 315px;
+          }
+        }
+      }
+      .title {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: white;
+
+        @include md {
+          font-size: 1.8rem;
+          color: white;
+        }
+      }
+    }
+  }
+}
