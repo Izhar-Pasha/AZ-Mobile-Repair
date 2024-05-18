@@ -1,18 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
-import HeroSection from './Component/Herosection/HeroSection.jsx';
-import Navbar from './Component/Navbar/Header.jsx';
-import Category from './Component/Category/Category.jsx';
+import Home from "./Component/Home/Home.jsx";
 import Footer from './Component/Footer/Footer.jsx';
+import Mobile from './Component/Services/Mobile.jsx';
+import Laptop from './Component/Services/Laptop.jsx';
+import SmartWatch from './Component/Services/SmartWatch.jsx';
+import Headphones from './Component/Services/Headphones.jsx';
+import Earpods from './Component/Services/Earpods.jsx';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <HeroSection/>
-      <Category/>
-      <Footer/>
+      <Router>
+        <Routes>
+        <Route path='/' element={<Home />} />
+          <Route path='/Mobile' element={<Mobile />} />
+          <Route path='/Watch' element={<SmartWatch />} />
+          <Route path='/Laptop' element={<Laptop />} />
+          <Route path='/Headphones' element={<Headphones />} />
+          <Route path='/Earpods' element={<Earpods />} />
+        </Routes>
+        <Footer/>
+      </Router>
     </div>
   );
 }

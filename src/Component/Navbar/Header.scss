@@ -1,17 +1,21 @@
 @import "../../css-config/mixins.scss";
 
-.main-header{
+.main-header {
     width: 90.8%;
     padding: 0 20px;
-    background-color: #212121;
+    background: #020202;
+background: -webkit-linear-gradient(0deg, #020202 0%, #070b62 100%);
+background: linear-gradient(0deg, #020202 0%, #070b62 100%);
     color: white;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     z-index: 99;
-    @include md{
+
+    @include md {
         width: 94%;
         padding: 0 40px;
     }
-    .header-content{
+
+    .header-content {
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -19,51 +23,50 @@
         height: 50px;
         max-width: 1200px;
         margin: 0 auto;
-        @include md{
+
+        @include md {
             height: 80px;
         }
-        .left{
+
+        .left {
             list-style-type: none;
             display: none;
             gap: 25px;
-            @include md{
+
+            @include md {
                 display: flex;
             }
-            li{
+
+            li {
                 font-size: 14px;
                 font-weight: 700;
                 text-transform: uppercase;
                 cursor: pointer;
             }
         }
-        .center{
-            font-size: 22px;
-            font-weight: 700;
-            cursor: pointer;
-            @include md{
-                font-size: 34px;
-                position: absolute;
-                left: 50%;
-                transform: translateX(-50%);
-            }
-        }
-        .right{
+
+        .right {
             display: flex;
             align-items: center;
             gap: 20px;
-            @include md{
+
+            @include md {
                 gap: 24px;
             }
-            svg{
+
+            svg {
                 font-size: 20px;
                 cursor: pointer;
-                @include md{
+
+                @include md {
                     font-size: 24px;
                 }
             }
-            .cart-icon{
+
+            .cart-icon {
                 position: relative;
-                span{
+
+                span {
                     min-width: 20px;
                     text-align: center;
                     background-color: #8e2de2;
@@ -77,24 +80,34 @@
                 }
             }
 
-            .logo{
+            .logo {
                 height: 60px;
                 width: 60px;
-                @include md{
+
+                @include md {
                     height: 80px;
                     width: 80px;
                 }
             }
         }
     }
-    &.sticky-header{
+
+    &.sticky-header {
         position: sticky;
         top: 0;
-        animation: sticky-header 0.3s ease forwards;}
+        animation: sticky-header 0.3s ease forwards;
+    }
 }
- 
+
 @keyframes stickyHeader {
-    0%{transform: translateY(-80px)};
-    100%{transform: translateY(0);}
-    
+    0% {
+        transform: translateY(-80px)
+    }
+
+    ;
+
+    100% {
+        transform: translateY(0);
+    }
+
 }

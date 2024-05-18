@@ -1,6 +1,7 @@
-import { useEffect, useState, useContext } from "react";
+import { useEffect, useState } from "react";
 import "./Header.scss";
 import Logo from "../../Assets/Logo.png";
+
 
 const Header = () => {
 

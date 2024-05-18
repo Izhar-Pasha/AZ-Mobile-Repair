@@ -5,7 +5,7 @@ import Banner from "../../Assets/Banner.png";
 const HeroSection = () => {
   return (
     <div className="container1">
-      <div className="content">
+      <div className="content" id='home'>
         <div className="banner1">
           <h1>Tech Specialist..</h1>
           <p>Restore, Revive, & Reconnect.! Your devices deserve expert care. Experience seamless functionality and peak performance with our specialized repair solution.</p>

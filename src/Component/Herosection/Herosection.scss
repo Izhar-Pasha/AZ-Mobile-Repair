@@ -18,6 +18,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        height: fit-content;
 
     }
 
@@ -36,6 +37,7 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
+            gap: 100px;
         }
 
         .banner1 {
@@ -70,8 +72,9 @@
                     blink-caret .75s step-end infinite;
 
                 @include md {
-                    font-size: 3.8rem;
+                    font-size: 3.6rem;
                     padding: 22px;
+                    
                 }
 
 
