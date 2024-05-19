@@ -1,36 +1,50 @@
 @import "../../css-config/mixins.scss";
 
-.footer{
+.footer {
     width: 100%;
     background-color: rgb(26, 23, 23);
     color: white;
-    .footer-content{
+
+    .footer-content {
         padding: 50px 20px;
         max-width: 1200px;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
-        @include md{
+
+        @include md {
             justify-content: space-between;
             padding: 50px 0;
         }
-        .col{
+
+        .col {
             max-width: 300px;
-            .title{
+
+            .title {
                 margin-bottom: 20px;
                 font-size: 20px;
                 font-weight: bolder;
+                text-align: start;
 
             }
-            .text{
-                color: whitesmoke;
-                font-size: 14px;
+
+            .txt {
+                text-align: start;
+                color: rgba(245, 245, 245, 0.801);
+                font-size: 0.8rem;
             }
-            .c-item{
+
+            .c-item {
                 display: flex;
                 margin-bottom: 10px;
-                svg{
+                a{
+                    font-size: 0.9rem;
+                    color: whitesmoke;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+                svg {
                     flex-shrink: 0;
                     font-size: 14px;
                     margin-right: 10px;
@@ -38,25 +52,35 @@
                     color: whitesmoke;
                 }
             }
-            span{
-                &.text{
+
+            span {
+                &.text {
                     display: block;
+                    text-align: start;
                     margin-bottom: 10px;
                     cursor: pointer;
                 }
             }
         }
     }
-    .bottom-bar{
-        border-top: 1px solid rgba(0,0,0,0.1);
-        .bottom-bar-content{
+    .designer a{
+        text-decoration: none;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+
+    .bottom-bar {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+        .bottom-bar-content {
             padding: 20px;
             display: flex;
             align-items: center;
             flex-direction: column;
             text-align: center;
             gap: 10px;
-            @include md{
+
+            @include md {
                 padding: 0;
                 height: 60px;
                 max-width: 1200px;
@@ -65,12 +89,13 @@
                 justify-content: space-between;
                 text-align: left;
             }
-            .text{
+
+            .text {
                 font-size: 12px;
                 color: whitesmoke;
                 display: flex;
                 justify-content: center;
-                align-items: center; 
+                align-items: center;
                 gap: 5px;
             }
         }

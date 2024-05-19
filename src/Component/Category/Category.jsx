@@ -15,7 +15,7 @@ const Category = () => {
                 <h1>CATEGORY</h1>
                 <div className="underline"></div>
             </div>
-            <div className="content">
+            <div className="content" id='cat'>
                 {/* CATEGORY 1 */}
                 <Link to="/Mobile" style={{ textDecoration: 'none' }}>  <div className="cat">
                     <div className="img">
