@@ -17,27 +17,26 @@ const Footer = () => {
                     <div className="title">Contact</div>
                     <div className="c-item">
                         <FaLocationArrow />
-                       <a href="https://www.google.com/maps/place/AZ+QUICK+MOBILE+SERVICE/@12.943087,77.5953989,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae150009251ba7:0x10c61e6b9a3b2a9!8m2!3d12.9430818!4d77.5979738!16s%2Fg%2F11y45zqqz0?entry=ttu"><div className="text">1,Lakkasandra, Lakkasandra Extension, Wilson Garden, Bengaluru, K'taka- 560030</div></a>
+                       <a href="https://www.google.com/maps/place/AZ+QUICK+MOBILE+SERVICE/@12.943087,77.5953989,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae150009251ba7:0x10c61e6b9a3b2a9!8m2!3d12.9430818!4d77.5979738!16s%2Fg%2F11y45zqqz0?entry=ttu"><div className="contact">1,Lakkasandra, Lakkasandra Extension, Wilson Garden, Bengaluru, K'taka- 560030</div></a>
                     </div>
                     <div className="c-item">
                         <FaMobileAlt />
-                        <div className="text">Phone: +917892660255</div>
+                        <div className="contact">Phone: +917892660255</div>
                     </div>
                     <div className="c-item">
                         <FaEnvelope />
-                        <div className="text">Email: Barkath@rahzi.com</div>
+                        <div className="contact">Email: Barkath@rahzi.com</div>
                     </div>
                 </div>
 
 
                 <div className="col">
                     <div className="title">Categories</div>
+                    <span className="text">Mobile Repair</span>
+                    <span className="text">Smart Watches Repair</span>
+                    <span className="text">Laptop Repair</span>
                     <span className="text">Headphones</span>
-                    <span className="text">Smart Watches</span>
-                    <span className="text">Bluetooth Speakers</span>
-                    <span className="text">Wireless Earbuds</span>
-                    <span className="text">Home Theatre</span>
-                    <span className="text">Projectors</span>
+                    <span className="text">Earpods</span>
                 </div>
 
 
@@ -45,8 +44,7 @@ const Footer = () => {
                     <div className="title">Pages</div>
                     <span className="text">Home</span>
                     <span className="text">About</span>
-                    <span className="text">Privacy Policy</span>
-                    <span className="text">Returns</span>
+                    <span className="text">Category</span>
                     <span className="text">Terms & Conditions</span>
                     <span className="text">Contact Us</span>
                 </div>
@@ -57,7 +55,7 @@ const Footer = () => {
             <div className="bottom-bar">
                 <div className="bottom-bar-content">
                     <div className="text">
-                   &copy; All RIGHTS RESERVED 2024 ||  AZ QUICK MOBILE SERVICES WITH  <FcLike />               
+                   &copy; All RIGHTS RESERVED 2024 ||  AZ QUICK MOBILE SERVICES WITH <FcLike />               
                     </div>
                         <img src={Payment} alt="" />
                 </div>

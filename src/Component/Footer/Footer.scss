@@ -33,6 +33,10 @@
                 text-align: start;
                 color: rgba(245, 245, 245, 0.801);
                 font-size: 0.8rem;
+                @include md{
+                font-size: 0.9rem;
+
+                }
             }
 
             .c-item {
@@ -43,6 +47,12 @@
                     color: whitesmoke;
                     text-decoration: none;
                     cursor: pointer;
+                }
+                .contact{
+                    font-size: 0.8rem;
+                    @include md{
+                        font-size: 0.9rem;
+                    }
                 }
                 svg {
                     flex-shrink: 0;
@@ -55,18 +65,27 @@
 
             span {
                 &.text {
+                    font-size: 0.8rem;
                     display: block;
                     text-align: start;
                     margin-bottom: 10px;
                     cursor: pointer;
+                    @include md{
+                        font-size: 0.9rem;
+        
+                        }
                 }
             }
         }
     }
     .designer a{
+        font-size: 10px;
         text-decoration: none;
         color: whitesmoke;
         cursor: pointer;
+        @include md{
+            font-size: 12px;
+        }
     }
 
     .bottom-bar {
@@ -91,12 +110,15 @@
             }
 
             .text {
-                font-size: 12px;
+                font-size: 11px;
                 color: whitesmoke;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 gap: 5px;
+                @include md{
+                    font-size: 12px;
+                }
             }
         }
     }

@@ -3,7 +3,7 @@ import "./Services.scss";
 import WatchDisplay from "../../Assets/Watch Display.jpeg";
 import Button from "../../Assets/Watch Button.jpeg";
 import Battery from "../../Assets/Watch Battery.jpeg";
-import Water from "../../Assets/Water Damage.jpeg";
+import Water from "../../Assets/Watch Water.jpg";
 import { HiOutlineArrowNarrowLeft } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 
