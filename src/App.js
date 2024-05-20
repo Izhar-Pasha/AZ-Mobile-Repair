@@ -7,6 +7,7 @@ import SmartWatch from './Component/Services/SmartWatch.jsx';
 import Headphones from './Component/Services/Headphones.jsx';
 import Earpods from './Component/Services/Earpods.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'normalize.css';
 
 
 

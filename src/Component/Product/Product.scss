@@ -16,15 +16,15 @@
   .header {
 
     h1 {
-      font-size: 1rem;
+      font-size: 0.9rem;
       font-size: 600;
       color: rgb(255, 251, 251);
 
 
       @include md {
-        font-size: 1.2rem;
+        font-size: 0.5rem;
         font-size: 600;
-        
+
       }
     }
 
@@ -48,10 +48,11 @@
     align-items: center;
 
 
-    div{
+    div {
       gap: 30px;
       padding: 8px;
     }
+
     img {
       height: 50px;
       width: 50px;
@@ -63,7 +64,8 @@
       border-radius: 50%;
       color: white;
       background-color: rgba(245, 245, 245, 0.1);
-      @include md{
+
+      @include md {
         height: 80px;
         width: 80px;
       }
