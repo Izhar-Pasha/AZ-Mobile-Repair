@@ -25,7 +25,7 @@ const Footer = () => {
                     </div>
                     <div className="c-item">
                         <FaEnvelope />
-                        <div className="contact">Email: Barkath@rahzi.com</div>
+                        <div className="contact"><a href="mailto:barkathali1996@gmail.com">Email: barkathali1996@gmail.com</a></div>
                     </div>
                 </div>
 

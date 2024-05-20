@@ -16,13 +16,13 @@
   .header {
 
     h1 {
-      font-size: 0.9rem;
+      font-size: 1rem;
       font-size: 600;
       color: rgb(255, 251, 251);
 
 
       @include md {
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-size: 600;
         
       }
@@ -30,11 +30,11 @@
 
     p {
       font-size: 0.8rem;
-      color: rgba(255, 255, 255, 0.712);
+      color: rgb(255, 255, 255);
 
       @include md {
         font-size: 0.9rem;
-        color: rgba(245, 245, 245, 0.795);
+        color: rgba(245, 245, 245);
       }
     }
   }

@@ -9,6 +9,9 @@
     color: black;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     z-index: 99;
+    -webkit-box-shadow: -12px 9px 29px -7.5px #000000;
+    -moz-box-shadow: -12px 9px 29px -7.5px #000000;
+    box-shadow: -12px 9px 29px -7.5px #000000;
 
     @include md {
         width: 94%;
@@ -43,8 +46,9 @@
                 font-weight: 700;
                 text-transform: uppercase;
                 cursor: pointer;
-                @include md{
-                font-size: 14px;
+
+                @include md {
+                    font-size: 14px;
                 }
             }
         }

@@ -4,7 +4,6 @@ import Marquee from 'react-fast-marquee';
 import apple from "../../Assets/apple (1).png";
 import oneplus from "../../Assets/one-plus.png";
 import samsung from "../../Assets/samsung.png";
-import nothing from "../../Assets/Nothing.png";
 import vivo from "../../Assets/vivo.png";
 import mi from "../../Assets/xiaomi.png";
 import motorola from "../../Assets/motorola.png";
@@ -31,9 +30,6 @@ const Product = () => {
         <div>
           <img src={samsung} alt="apple" />
         </div>
-        {/* <div >
-          <img src={nothing} alt="apple" />
-        </div> */}
         <div >
           <img src={vivo} alt="apple" />
         </div>
