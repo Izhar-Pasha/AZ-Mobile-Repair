@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSection from '../Herosection/HeroSection';
 import Category from '../Category/Category';
 import Navbar from "../Navbar/Header";
+import Product from '../Product/Product';
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
   <>
   <Navbar />
   <HeroSection/>
+  <Product/>
   <Category/>
   </>
   )

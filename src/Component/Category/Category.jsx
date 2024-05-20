@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Category.scss";
 import Mobile from "../../Assets/Mobile.jpeg";
-import Laptop from "../../Assets/Laptop.jpeg";
+// import Laptop from "../../Assets/Laptop.jpeg";
 import Watch from "../../Assets/Watch.jpeg";
 import Headphones from "../../Assets/Headphones.png";
 import Earpods from "../../Assets/Earpods.webp";
@@ -34,12 +34,12 @@ const Category = () => {
 
 
                 {/* CATEGORY 3 */}
-                <Link to="/Laptop" style={{ textDecoration: 'none' }}>  <div className="cat">
+                {/* <Link to="/Laptop" style={{ textDecoration: 'none' }}>  <div className="cat">
                     <div className="img">
                         <img className='image' src={Laptop} alt="" />
                     </div>
                     <h1 className='title'>Laptop Repair</h1>
-                </div></Link>
+                </div></Link> */}
 
                 {/* CATEGORY 4 */}
                 <Link to="/Headphones" style={{ textDecoration: 'none' }}>  <div className="cat">

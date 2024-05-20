@@ -24,6 +24,15 @@ const Mobile = () => {
       </div>
       <div className="content">
 
+
+      <div className="context">
+          <div className="image">
+            <img src={MotherBoard} alt="display" />
+          </div>
+          <h1>Mother Board Repair</h1>
+          <p><span>Device acting up?</span> We've got you covered. Get your motherboard fixed quickly and affordably with our best price range guarantee.</p>
+        </div>
+
         <div className="context">
           <div className="image">
             <img src={Display} alt="display" />
@@ -32,13 +41,6 @@ const Mobile = () => {
           <p><span>Cracked screen?</span> No problem. Our expert technicians will swiftly fix your smartphone's display, ensuring crystal-clear visuals at the best price. Fast, reliable, and hassle-free.</p>
         </div>
 
-        <div className="context">
-          <div className="image">
-            <img src={MotherBoard} alt="display" />
-          </div>
-          <h1>Mother Board Repair</h1>
-          <p><span>Device acting up?</span> We've got you covered. Get your motherboard fixed quickly and affordably with our best price range guarantee.</p>
-        </div>
 
         <div className="context">
           <div className="image">
