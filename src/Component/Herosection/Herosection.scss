@@ -57,7 +57,7 @@
 
             h1 {
                 color: #fcf9f9;
-                font-size: 1.8rem;
+                font-size: 1.5rem;
                 padding: 8px;
                 overflow: hidden;
                 /* Ensures the content is not revealed until the animation */
@@ -107,11 +107,10 @@
 
             p {
                 width: 100%;
-                font-size: 1rem;
+                font-size: 0.9rem;
                 font-weight: 600;
                 color: #a8a3a3;
                 text-align: center;
-
 
                 @include md {
                     font-size: 1.6rem;
@@ -127,8 +126,8 @@
             justify-content: center;
 
             img {
-                height: 330px;
-                width: 330px;
+                height: 300px;
+                width: 300px;
                 margin-top: 10px;
 
                 @include md {
